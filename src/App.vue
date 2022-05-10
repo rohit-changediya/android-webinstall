@@ -21,21 +21,8 @@
                         >
                             <Installer />
                             <hr>
-                            <InstallStep/>
-                            <hr>
-                            <InstallTypeStep/>
-                            <hr>
-                            <PrepareStep/>
-                            <hr>
-                            <UnlockStep/>
-                            <hr>
                             <FinishStep/>
-                            <hr>
-                            <DownloadStep/>
-                            <hr>
-                            <ConnectStep/>
-                            <hr>
-                            <ConnectBanner/>
+                            
                             
                         </v-sheet>
                     </v-col>
@@ -124,21 +111,15 @@
 
 <script>
 import Installer from "./components/Installer";
-import InstallStep from "./components/InstallStep";
-import InstallTypeStep from "./components/InstallTypeStep";
-import PrepareStep from "./components/PrepareStep";
-import UnlockStep from "./components/UnlockStep";
 import FinishStep from "./components/FinishStep";
-import DownloadStep from "./components/DownloadStep";
-import ConnectStep from "./components/ConnectStep";
-import ConnectBanner from "./components/ConnectBanner";
+
+
 
 export default {
     name: "App",
 
     components: {
-        Installer,InstallStep,InstallTypeStep,PrepareStep,UnlockStep,
-        FinishStep,DownloadStep,ConnectStep,ConnectBanner,
+        Installer,FinishStep,
     },
 
     data: () => ({
