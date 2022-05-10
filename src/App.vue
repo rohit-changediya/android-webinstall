@@ -1,6 +1,6 @@
 <template>
     <v-app id="inspire">
-        <v-main class="grey lighten-3">
+        <v-main class="grey darken-4">
             <v-container fill-height>
                 <v-row align="center" justify="center">
                     <v-col cols="12" sm="2"></v-col>
@@ -20,6 +20,23 @@
                             class="d-flex flex-column"
                         >
                             <Installer />
+                            <hr>
+                            <InstallStep/>
+                            <hr>
+                            <InstallTypeStep/>
+                            <hr>
+                            <PrepareStep/>
+                            <hr>
+                            <UnlockStep/>
+                            <hr>
+                            <FinishStep/>
+                            <hr>
+                            <DownloadStep/>
+                            <hr>
+                            <ConnectStep/>
+                            <hr>
+                            <ConnectBanner/>
+                            
                         </v-sheet>
                     </v-col>
 
@@ -107,12 +124,21 @@
 
 <script>
 import Installer from "./components/Installer";
+import InstallStep from "./components/InstallStep";
+import InstallTypeStep from "./components/InstallTypeStep";
+import PrepareStep from "./components/PrepareStep";
+import UnlockStep from "./components/UnlockStep";
+import FinishStep from "./components/FinishStep";
+import DownloadStep from "./components/DownloadStep";
+import ConnectStep from "./components/ConnectStep";
+import ConnectBanner from "./components/ConnectBanner";
 
 export default {
     name: "App",
 
     components: {
-        Installer,
+        Installer,InstallStep,InstallTypeStep,PrepareStep,UnlockStep,
+        FinishStep,DownloadStep,ConnectStep,ConnectBanner,
     },
 
     data: () => ({

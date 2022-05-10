@@ -31,6 +31,9 @@
 
             <v-btn
                 color="primary"
+                elevation="2"
+                rounded
+                x-large
                 @click="unlock"
                 :disabled="unlocking || unlocked"
                 >Unlock</v-btn
@@ -78,11 +81,14 @@
         <div class="d-flex justify-space-between flex-row-reverse">
             <v-btn
                 color="primary"
+                elevation="2"
+                rounded
+                x-large
                 @click="$bubble('nextStep')"
                 :disabled="!unlocked"
                 >Next <v-icon dark right>mdi-arrow-right</v-icon></v-btn
             >
-            <v-btn text @click="$bubble('prevStep')">Back</v-btn>
+            <v-btn  rounded x-large text @click="$bubble('prevStep')">Back</v-btn>
         </div>
 
         <v-dialog v-model="oemUnlockDialog" width="500" persistent>
@@ -123,7 +129,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryOemUnlock">
+                    <v-btn color="primary" rounded x-large text @click="retryOemUnlock">
                         Retry
                     </v-btn>
                 </v-card-actions>

@@ -41,7 +41,7 @@
         </div>
 
         <div class="d-flex justify-space-between">
-            <v-btn text @click="$bubble('prevStep')">Back</v-btn>
+            <v-btn rounded x-large text @click="$bubble('prevStep')">Back</v-btn>
         </div>
     </v-container>
 </template>

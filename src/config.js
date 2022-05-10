@@ -1,31 +1,18 @@
 export default {
     OS_NAME: process.env.VUE_APP_OS_NAME,
-    ACCENT_COLOR: "#0366d6",
+    PRIMARY_COLOR: "#5550f2",
+    SECONDARY_COLOR: "#f1f1f1",
+    ACCENT_COLOR: "#5550f2",
     SUPPORTED_DEVICES: [
         {
-            name: "Pixel 4",
-            model: "flame",
+            name: "Pixel 3",
+            model: "blueline",
         },
         {
-            name: "Pixel 4 XL",
-            model: "coral",
+            name: "Pixel 3 XL",
+            model: "crosshatch",
         },
-        {
-            name: "Pixel 4a 5G",
-            model: "bramble",
-        },
-        {
-            name: "Pixel 5",
-            model: "redfin",
-        },
-        {
-            name: "Pixel 6",
-            model: "oriole",
-        },
-        {
-            name: "Pixel 6 Pro",
-            model: "raven",
-        },
+
     ],
     RELEASE_VARIANTS: {
         minimal: {
@@ -48,20 +35,28 @@ export default {
     },
     DONATION_LINKS: [
         {
-            title: "Recurring donation",
+            title: "EthOS website",
             description:
-                "Please consider making a recurring donation on Patreon for benefits such as early access to updates, exclusive behind-the-scenes development news, and priority support. This allows us to support the project sustainably in the future.",
+                "For more information regarding ethOS visit our website!",
             highlight: true,
-            url: "https://patreon.com/kdrag0n",
+            url: "https://www.ethereumphone.org/",
             icon: "patreon",
         },
         {
-            title: "One-time donation",
+            title: "EthOS Discord",
             description:
-                "You can also make a one-time donation through PayPal. It doesn’t help with sustainable support, but every little bit is appreciated!",
+                "Join our discord for early access to updates, community calls, questions and much more.",
             highlight: false,
-            url: "https://paypal.me/kdrag0ndonate",
-            icon: "paypal",
+            url: "https://discord.com/invite/FtVvK7B2KT",
+            icon: "discord",
+        },
+        {
+            title: "EthOS Twitter",
+            description:
+                "Follow us on twitter for the latest news regarding the ethOS",
+            highlight: false,
+            url: "https://twitter.com/EthereumPhone",
+            icon: "twitter",
         },
     ],
 };

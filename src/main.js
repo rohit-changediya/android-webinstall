@@ -6,6 +6,7 @@ import * as common from "./core/common";
 import * as errors from "./core/errors";
 import * as Sentry from "@sentry/vue";
 import { Integrations } from "@sentry/tracing";
+import './style.css'
 
 Vue.config.productionTip = false;
 

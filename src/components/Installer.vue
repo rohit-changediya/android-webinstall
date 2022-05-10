@@ -168,7 +168,10 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryConnectSelect">
+                    <v-btn color="primary"
+                    elevation="2"
+                    rounded
+                    x-large text @click="retryConnectSelect">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -229,7 +232,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryConnectUdev">
+                    <v-btn color="primary" rounded x-large text @click="retryConnectUdev">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -260,7 +263,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryClaim">
+                    <v-btn color="primary" rounded x-large text @click="retryClaim">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -297,7 +300,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryDisconnect">
+                    <v-btn color="primary" rounded x-large text @click="retryDisconnect">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -327,7 +330,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryStorage">
+                    <v-btn color="primary" rounded x-large text @click="retryStorage">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -355,7 +358,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryMemory">
+                    <v-btn color="primary" rounded x-large text @click="retryMemory">
                         Retry
                     </v-btn>
                 </v-card-actions>
@@ -389,7 +392,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="requestReconnect">
+                    <v-btn color="primary" rounded x-large text @click="requestReconnect">
                         Reconnect
                     </v-btn>
                 </v-card-actions>
@@ -411,7 +414,7 @@
 
                 <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="primary" text @click="retryTimeout">
+                    <v-btn rounded x-large color="primary" text @click="retryTimeout">
                         Retry
                     </v-btn>
                 </v-card-actions>

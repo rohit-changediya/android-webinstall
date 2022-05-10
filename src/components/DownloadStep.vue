@@ -110,11 +110,14 @@
         <div class="d-flex justify-space-between flex-row-reverse">
             <v-btn
                 color="primary"
+                elevation="2"
+                rounded
+                x-large
                 @click="$bubble('nextStep')"
                 :disabled="$root.$data.zipBlob === null"
                 >Next <v-icon dark right>mdi-arrow-right</v-icon></v-btn
             >
-            <v-btn text @click="$bubble('prevStep')">Back</v-btn>
+            <v-btn rounded x-large text @click="$bubble('prevStep')">Back</v-btn>
         </div>
     </v-container>
 </template>
