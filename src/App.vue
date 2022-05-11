@@ -20,8 +20,9 @@
                             class="d-flex flex-column"
                         >
                             <Installer />
-                            <hr>
                             <FinishStep/>
+                            
+                            
                             
                             
                         </v-sheet>
@@ -115,11 +116,12 @@ import FinishStep from "./components/FinishStep";
 
 
 
+
 export default {
     name: "App",
 
     components: {
-        Installer,FinishStep,
+        Installer, FinishStep
     },
 
     data: () => ({
