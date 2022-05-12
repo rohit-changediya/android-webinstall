@@ -20,7 +20,7 @@
                             class="d-flex flex-column"
                         >
                             <Installer />
-                            <FinishStep/>
+                            
                             
                             
                             
@@ -112,7 +112,7 @@
 
 <script>
 import Installer from "./components/Installer";
-import FinishStep from "./components/FinishStep";
+
 
 
 
@@ -121,7 +121,7 @@ export default {
     name: "App",
 
     components: {
-        Installer, FinishStep
+        Installer
     },
 
     data: () => ({
