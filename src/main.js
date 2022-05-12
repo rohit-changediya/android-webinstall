@@ -56,6 +56,8 @@ Vue.mixin({
                     );
                 }
 
+
+
                 this.$bubble(
                     `error${errEvent}`,
                     retryCallback || this.errorRetry
