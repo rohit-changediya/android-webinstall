@@ -53,7 +53,7 @@
             >
                 <v-card-title>{{ release.version }}</v-card-title>
                 <v-card-subtitle>{{
-                    $root.$data.RELEASE_VARIANTS[release.variant].description
+                    $root.$data.RELEASE_VARIANTS.beta.description
                 }}</v-card-subtitle>
             </v-card>
         </div>
@@ -161,6 +161,7 @@ export default {
                 this.latestReleases = this.releaseIndex.latest[
                     this.$root.$data.product
                 ];
+                console.log("RELEASE: ", this.$root.$data.RELEASE_VARIANTS[this.latestReleases])
             }
         },
     },
