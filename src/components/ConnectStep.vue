@@ -103,6 +103,7 @@ export default {
                 this.$root.$data.product = await this.device.getVariable(
                     "product"
                 );
+                console.log(this.$root.$data.product)
                 this.error = null;
 
                 if (this.firstConnect) {
