@@ -1,5 +1,5 @@
 import { XhrError } from "./download";
-import { TimeoutError } from "android-fastboot";
+import { TimeoutError } from "mhaas-android-fastboot";
 
 export function isConnectSelectError(err) {
     return (
@@ -34,7 +34,7 @@ export function isClaimError(err) {
         (err instanceof DOMException &&
             err.name === "InvalidStateError" &&
             err.message ===
-                "An operation that changes the device state is in progress.")
+            "An operation that changes the device state is in progress.")
     );
 }
 

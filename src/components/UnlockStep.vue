@@ -139,7 +139,7 @@
 </template>
 
 <script>
-import { FastbootError } from "android-fastboot";
+import { FastbootError } from "mhaas-android-fastboot";
 
 export default {
     name: "UnlockStep",
