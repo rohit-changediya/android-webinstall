@@ -34,7 +34,3 @@ All configuration is in `src/config.js` and `.env`, and the release index at `pu
 ## Contributing
 
 Contributions are welcome! If you adapt this installer or make other improvements to it, please contribute the improvements back to the official repository instead of forking it and keeping the changes to yourself. There are many rough edges that need to be improved upon.
-
-### Important for deploying
-
-Add an else to the fastboot.cjs, that when the file "super-image" is not found, it shall reboot to fastboot anyways.

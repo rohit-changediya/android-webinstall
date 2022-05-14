@@ -987,7 +987,7 @@
     "ajv" "^6.12.0"
     "ajv-keywords" "^3.4.1"
 
-"@electron/get@^1.0.1":
+"@electron/get@^1.13.0":
   "integrity" "sha512-BrZYyL/6m0ZXz/lDxy/nlVhQz+WF+iPS6qXolEU8atw7h6v1aYkjwJZ63m+bJMBTxDE66X+r2tPS4a/8C82sZw=="
   "resolved" "https://registry.npmjs.org/@electron/get/-/get-1.14.1.tgz"
   "version" "1.14.1"
@@ -1509,10 +1509,10 @@
     "@types/node" "*"
     "form-data" "^3.0.0"
 
-"@types/node@*", "@types/node@^14.6.2":
-  "integrity" "sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-14.14.37.tgz"
-  "version" "14.14.37"
+"@types/node@*", "@types/node@^16.11.26":
+  "integrity" "sha512-QXu45LyepgnhUfnIAj/FyT4uM87ug5KpIrgXfQtUPNAlx8w5hmd8z8emqCLNvG11QkpRSCG9Qg2buMxvqfjfsQ=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-16.11.35.tgz"
+  "version" "16.11.35"
 
 "@types/node@^10.1.0":
   "integrity" "sha512-LuAa6t1t0Bfw4CuSR0UITsm1hP17YL+u82kfHGrHUWdhlBtH7sa7jGY5z7glGaIj/WDYDkRtgGd+KCjCzxBW1w=="
@@ -2259,13 +2259,6 @@
   "integrity" "sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM="
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
-
-"android-fastboot@^1.0.7":
-  "integrity" "sha512-6MCqRarUfyOV68R9pNKNPMlIDLE/qJju2nhi/Jul+Juw7sqYnjwHDA9EGz3UY55tmlYeMc44jTBGcSY1zjTEdw=="
-  "resolved" "https://registry.npmjs.org/android-fastboot/-/android-fastboot-1.1.1.tgz"
-  "version" "1.1.1"
-  dependencies:
-    "@zip.js/zip.js" "2.2.27"
 
 "ansi-align@^3.0.0":
   "integrity" "sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw=="
@@ -4944,13 +4937,13 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.707.tgz"
   "version" "1.3.707"
 
-"electron@^13.0.0":
-  "integrity" "sha512-Es/sBy85NIuqsO9MW41PUCpwIkeinlTQ7g0ainfnmRAM2rmog3GBxVCaoV5dzEjwTF7TKG1Yr/E7Z3qHmlfWAg=="
-  "resolved" "https://registry.npmjs.org/electron/-/electron-13.6.9.tgz"
-  "version" "13.6.9"
+"electron@^18.2.3":
+  "integrity" "sha512-DJWX03hCRKTscsfXxmW4gmgFuseop+g+m4ml7NfOMfankD8uYyr2Xyi3Ui02inL9qZOlbLMeLVCu6jKCKs8p/w=="
+  "resolved" "https://registry.npmjs.org/electron/-/electron-18.2.3.tgz"
+  "version" "18.2.3"
   dependencies:
-    "@electron/get" "^1.0.1"
-    "@types/node" "^14.6.2"
+    "@electron/get" "^1.13.0"
+    "@types/node" "^16.11.26"
     "extract-zip" "^1.0.3"
 
 "elliptic@^6.5.3":
@@ -8026,6 +8019,13 @@
   "integrity" "sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4="
   "resolved" "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
   "version" "1.1.2"
+
+"mhaas-android-fastboot@^1.0.7":
+  "integrity" "sha512-XqLHImbalZuZNANA90Xjxndk8VYd1IvlYmMZhqpaMGVDsCACJOrvWJYx/W4NWB1rvjfWwyygYaDSypBkREz+pQ=="
+  "resolved" "https://registry.npmjs.org/mhaas-android-fastboot/-/mhaas-android-fastboot-1.1.2.tgz"
+  "version" "1.1.2"
+  dependencies:
+    "@zip.js/zip.js" "2.2.27"
 
 "micromatch@^3.1.10", "micromatch@^3.1.4":
   "integrity" "sha512-MWikgl9n9M3w+bpsY3He8L+w9eF9338xRl8IAO5viDizwSzziFEyUzo2xrrloB64ADbTf8uA8vRqqttDTOmccg=="
