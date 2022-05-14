@@ -8,9 +8,7 @@
                     This will install {{ $root.$data.OS_NAME }}
                     {{ $root.$data.release.version
                     }}{{
-                        $root.$data.RELEASE_VARIANTS[
-                            $root.$data.release.variant
-                        ].suffix
+                        $root.$data.RELEASE_VARIANTS.beta.suffix
                     }}
                     on your
                     {{ getDeviceName($root.$data.product) }}.
@@ -156,6 +154,7 @@ export default {
         active: async function (newState) {
             if (newState) {
                 this.saEvent("step_install");
+                console.log("InstallStep: ", this.$root.$data.RELEASE_VARIANTS);
             }
         },
     },
