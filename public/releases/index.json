@@ -3,7 +3,13 @@
         "blueline": [{
             "version": "2.0.0",
             "variant": "minimal",
-            "url": "http://10.0.0.45:8080/releases/files/image-20220511-OFFICIAL-blueline.zip",
+            "url": "https://ethos-webinstaller.web.app/ethOS2_blueline.zip",
+            "description": "ethOS 2.0"
+        }],
+        "crosshatch": [{
+            "version": "2.0.0",
+            "variant": "minimal",
+            "url": "https://ethos-webinstaller.web.app/ethOS2_crosshatch.zip",
             "description": "ethOS 2.0"
         }]
     }
