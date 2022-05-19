@@ -3,13 +3,13 @@
         "blueline": [{
             "version": "2.0.0",
             "variant": "minimal",
-            "url": "https://ethos-webinstaller.web.app/ethOS2_blueline.zip",
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline.zip",
             "description": "ethOS 2.0"
         }],
         "crosshatch": [{
             "version": "2.0.0",
             "variant": "minimal",
-            "url": "https://ethos-webinstaller.web.app/ethOS2_crosshatch.zip",
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_crosshatch.zip",
             "description": "ethOS 2.0"
         }]
     }
