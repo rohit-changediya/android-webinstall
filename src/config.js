@@ -5,14 +5,13 @@ export default {
     ACCENT_COLOR: "#5550f2",
     SUPPORTED_DEVICES: [
         {
-            name: "Pixel 3",
-            model: "blueline",
+            name: "Pixel 5a",
+            model: "barbet",
         },
         {
-            name: "Pixel 3 XL",
-            model: "crosshatch",
-        },
-
+            name: "Pixel 3",
+            model: "blueline",
+        }
     ],
     RELEASE_VARIANTS: {
         beta: {
@@ -25,9 +24,9 @@ export default {
             title: "EthOS website",
             description:
                 "For more information regarding ethOS visit our website!",
-            highlight: true,
+            highlight: false,
             url: "https://www.ethereumphone.org/",
-            icon: "patreon",
+            icon: "ethOS",
         },
         {
             title: "EthOS Discord",

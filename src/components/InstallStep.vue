@@ -205,8 +205,9 @@ export default {
                 );
 
                 this.installStatus = `Restarting into ${this.$root.$data.OS_NAME}`;
+                console.log("Before fastboot")
                 await this.device.reboot("");
-
+                console.log("After fastboot")
                 this.installed = true;
                 this.error = null;
 

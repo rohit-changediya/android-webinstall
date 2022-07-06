@@ -1,5 +1,5 @@
 <template>
-    <h1>Ξ</h1>
+    <p>Ξ</p>
 </template>
 
 <script>

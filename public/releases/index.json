@@ -1,16 +1,16 @@
 {
     "latest": {
         "blueline": [{
-            "version": "2.0.0",
+            "version": "1.0.0",
             "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline.zip",
-            "description": "ethOS 2.0"
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline_1.zip",
+            "description": "ethOS 1.0"
         }],
-        "crosshatch": [{
-            "version": "2.0.0",
+        "barbet": [{
+            "version": "1.0.0",
             "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_crosshatch.zip",
-            "description": "ethOS 2.0"
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_barbet_1.zip",
+            "description": "ethOS 1.0"
         }]
     }
 }

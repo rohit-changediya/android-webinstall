@@ -11,7 +11,7 @@
                 </p>
                 <p>
                     If you like {{ $root.$data.OS_NAME }}, please consider
-                    donating to support development and cover maintenance costs:
+                    following us on Twitter @EthereumPhone.
                 </p>
             </div>
         </div>
@@ -30,9 +30,10 @@
             >
                 <v-card-title>
                     <div class="pr-2">
-                        <liberapay-icon v-if="donation.icon === 'liberapay'" />
+                        <liberapay-icon v-if="donation.icon === 'ethOS'" />
                         <paypal-icon v-if="donation.icon === 'paypal'" />
                         <patreon-icon v-if="donation.icon === 'patreon'" />
+                        <eth-o-s-icon v-if="donation.icon === 'ethOS'" />
                     </div>
                     {{ donation.title }}</v-card-title
                 >
@@ -61,9 +62,10 @@ import LiberapayIcon from "./icons/LiberapayIcon.vue";
 import PaypalIcon from "./icons/PaypalIcon.vue";
 import PatreonIcon from "./icons/PatreonIcon.vue";
 import { getDeviceName } from "../core/devices";
+import EthOSIcon from "./icons/EthOSIcon.vue";
 
 export default {
-    components: { LiberapayIcon, PaypalIcon, PatreonIcon },
+    components: { LiberapayIcon, PaypalIcon, PatreonIcon, EthOSIcon },
     name: "FinishStep",
 
     props: ["device", "blobStore", "active"],
