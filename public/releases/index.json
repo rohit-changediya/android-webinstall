@@ -1,16 +1,28 @@
 {
     "latest": {
-        "blueline": [{
-            "version": "1.0.0",
-            "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline_1.zip",
-            "description": "ethOS 1.0"
-        }],
-        "barbet": [{
-            "version": "1.0.0",
-            "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_barbet_1.zip",
-            "description": "ethOS 1.0"
-        }]
+        "blueline": [
+            {
+                "version": "1.0.0",
+                "variant": "minimal",
+                "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline_1.zip",
+                "description": "ethOS 1.0"
+            }
+        ],
+        "barbet": [
+            {
+                "version": "1.0.0",
+                "variant": "minimal",
+                "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_barbet_1.zip",
+                "description": "ethOS 1.0"
+            }
+        ],
+        "snowyOS": [
+            {
+                "version": "1.0.0",
+                "variant": "minimal",
+                "url": "https://storage.googleapis.com/snowy-a0dc3.appspot.com/cheetah-factory-2023122200_without_keplr_app.zip",
+                "description": "snowyOS 1.0"
+            }
+        ]
     }
 }
