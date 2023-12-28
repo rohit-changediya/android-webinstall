@@ -11,6 +11,10 @@
         "postinstall": "electron-builder install-app-deps",
         "postuninstall": "electron-builder install-app-deps"
     },
+    "engines": {
+        "node": "14.21.3",
+        "npm": "6.14.18"
+    },
     "main": "background.js",
     "dependencies": {
         "@sentry/tracing": "^6.1.0",
