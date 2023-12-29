@@ -21,6 +21,7 @@
         "@sentry/vue": "^6.1.0",
         "core-js": "^3.6.5",
         "electron": "^18.2.3",
+        "express": "^4.18.2",
         "mhaas-android-fastboot": "1.1.4",
         "vue": "^2.6.11",
         "vuetify": "^2.4.0"
