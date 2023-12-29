@@ -6,7 +6,7 @@ export default {
     SUPPORTED_DEVICES: [
         {
             name: "Pixel 7 Pro",
-            model: "barbet",
+            model: "cheetah",
         }
     ],
     RELEASE_VARIANTS: {
