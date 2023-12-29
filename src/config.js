@@ -5,12 +5,8 @@ export default {
     ACCENT_COLOR: "#5550f2",
     SUPPORTED_DEVICES: [
         {
-            name: "Pixel 5a",
+            name: "Pixel 7 Pro",
             model: "barbet",
-        },
-        {
-            name: "Pixel 3",
-            model: "blueline",
         }
     ],
     RELEASE_VARIANTS: {
